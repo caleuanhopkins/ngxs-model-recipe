@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: 'users',
     loadChildren: './users/users.module#UsersModule'
+  },
+  {
+    path: 'foods',
+    loadChildren: './foods/foods.module#FoodsModule'
   }
 ];
 
